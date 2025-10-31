@@ -1,16 +1,17 @@
 #include "BIS_AddonInfo.hpp"
+
 class CfgPatches
 {
 	class pw_loadouts
 	{
 		units[]=
 		{
-			//"PW_Loadout_S_WDL",
+			"PW_Loadout_S_WDL",
 			"PW_Loadout_M_WDL",
-			//"PW_Loadout_L_WDL",
-			//"PW_Loadout_S_DES",
+			"PW_Loadout_L_WDL",
+			"PW_Loadout_S_DES",
 			"PW_Loadout_M_DES",
-			//"PW_Loadout_L_DES",
+			"PW_Loadout_L_DES",
 			//"PW_Loadout_S_WIN",
 			//"PW_Loadout_M_WIN",
 			//"PW_Loadout_L_WIN",
@@ -20,13 +21,13 @@ class CfgPatches
 		requiredVersion=0.1;
 		requiredAddons[]=
 		{
-			//"A3_Supplies_F_Exp_Ammoboxes",
-			//"A3_Structures_F_Heli_Ind_Cargo",
+			"A3_Supplies_F_Exp_Ammoboxes",
+			"A3_Structures_F_Heli_Ind_Cargo",
 			"A3_Supplies_F_Heli_CargoNets"	
 		};
 		version="1.0";
 		name="MIK Loadout";
-		author="Mushtea";
+		author=", aarcticc";
 		authorUrl="";
 	};
 };
@@ -48,13 +49,13 @@ class CfgEditorSubcategories
 
 class CfgVehicles
 {
-	//class C_T_supplyCrate_F	;
+	class C_T_supplyCrate_F	;
 	class CargoNet_01_box_F;
-	//class Land_Cargo10_grey_F;
+	class Land_Cargo10_grey_F;
 
-	/*class PW_Loadout_S_WDL: C_T_supplyCrate_F	
+	class PW_Loadout_S_WDL: C_T_supplyCrate_F	
 	{
-		author="Mushtea";
+		author=", aarcticc";
 		scope=2;
 		scopeCurator=2;
 		displayName="Polarwölfe Loadouts [WDL/S]";
@@ -63,7 +64,7 @@ class CfgVehicles
 		class Extended_InitPost_EventHandlers;
 		class EventHandlers: Extended_InitPost_EventHandlers
 		{
-			init="(_this select 0) execVM '\loadouts\loadouts_wdl.sqf'";
+			init="(_this select 0) execVM '\loadouts\loadouts_wdl_90.sqf'";
 		};
 		class TransportItems
 		{
@@ -73,13 +74,13 @@ class CfgVehicles
 				count=100;
 			};
 		};
-	};*/
+	};
 	class PW_Loadout_M_WDL: CargoNet_01_box_F  
 	{
-		author="Mushtea";
+		author=", aarcticc";
 		scope=2;
 		scopeCurator=2;
-		displayName="Polarwölfe Loadouts [WDL]";
+		displayName="Polarwölfe Loadouts [WDL/M]";
 		editorCategory ="PW_CAT";
 		editorSubcategory ="Loadouts";
 		class Extended_InitPost_EventHandlers;
@@ -96,9 +97,9 @@ class CfgVehicles
 			};
 		};
 	};
-	/*class PW_Loadout_L_WDL: Land_Cargo10_grey_F
+	class PW_Loadout_L_WDL: Land_Cargo10_grey_F
 	{
-		author="Mushtea";
+		author=", aarcticc";
 		scope=2;
 		scopeCurator=2;
 		displayName="Polarwölfe Loadouts [WDL/L]";
@@ -107,7 +108,7 @@ class CfgVehicles
 		class Extended_InitPost_EventHandlers;
 		class EventHandlers: Extended_InitPost_EventHandlers
 		{
-			init="(_this select 0) execVM '\loadouts\loadouts_wdl.sqf'";
+			init="(_this select 0) execVM '\loadouts\loadouts_wdl_90.sqf'";
 		};
 		class TransportItems
 		{
@@ -117,11 +118,11 @@ class CfgVehicles
 				count=100;
 			};
 		};
-	};*/
+	};
 	
-	/*class PW_Loadout_S_DES: C_T_supplyCrate_F	
+	class PW_Loadout_S_DES: C_T_supplyCrate_F	
 	{
-		author="Mushtea";
+		author=", aarcticc";
 		scope=2;
 		scopeCurator=2;
 		displayName="Polarwölfe Loadouts [DES/S]";
@@ -130,7 +131,7 @@ class CfgVehicles
 		class Extended_InitPost_EventHandlers;
 		class EventHandlers: Extended_InitPost_EventHandlers
 		{
-			init="(_this select 0) execVM '\loadouts\loadouts_des.sqf'";
+			init="(_this select 0) execVM '\loadouts\loadouts_des_90.sqf'";
 		};
 		class TransportItems
 		{
@@ -140,13 +141,13 @@ class CfgVehicles
 				count=100;
 			};
 		};
-	};*/
+	};
 	class PW_Loadout_M_DES: CargoNet_01_box_F  
 	{
-		author="Mushtea";
+		author=", aarcticc";
 		scope=2;
 		scopeCurator=2;
-		displayName="Polarwölfe Loadouts [DES]";
+		displayName="Polarwölfe Loadouts [DES/M]";
 		editorCategory ="PW_CAT";
 		editorSubcategory ="Loadouts";
 		class Extended_InitPost_EventHandlers;
@@ -163,9 +164,9 @@ class CfgVehicles
 			};
 		};
 	};
-	/*class PW_Loadout_L_DES: Land_Cargo10_grey_F
+	class PW_Loadout_L_DES: Land_Cargo10_grey_F
 	{
-		author="Mushtea";
+		author=", aarcticc";
 		scope=2;
 		scopeCurator=2;
 		displayName="Polarwölfe Loadouts [DES/L]";
@@ -174,7 +175,7 @@ class CfgVehicles
 		class Extended_InitPost_EventHandlers;
 		class EventHandlers: Extended_InitPost_EventHandlers
 		{
-			init="(_this select 0) execVM '\loadouts\loadouts_des.sqf'";
+			init="(_this select 0) execVM '\loadouts\loadouts_des_90.sqf'";
 		};
 		class TransportItems
 		{
@@ -184,11 +185,11 @@ class CfgVehicles
 				count=100;
 			};
 		};
-	};*/
+	};
 	
 	/*class PW_Loadout_S_WIN: C_T_supplyCrate_F	
 	{
-		author="Mushtea";
+		author=", aarcticc";
 		scope=2;
 		scopeCurator=2;
 		displayName="Polarwölfe Loadouts [WIN/S]";
@@ -197,7 +198,7 @@ class CfgVehicles
 		class Extended_InitPost_EventHandlers;
 		class EventHandlers: Extended_InitPost_EventHandlers
 		{
-			init="(_this select 0) execVM '\loadouts\loadouts_win.sqf'";
+			init="(_this select 0) execVM '\loadouts\init.sqf'";
 		};
 		class TransportItems
 		{
@@ -210,7 +211,7 @@ class CfgVehicles
 	};*/
 	/*class PW_Loadout_M_WIN: CargoNet_01_box_F  
 	{
-		author="Mushtea";
+		author=", aarcticc";
 		scope=2;
 		scopeCurator=2;
 		displayName="Polarwölfe Loadouts [WIN]";
@@ -219,7 +220,7 @@ class CfgVehicles
 		class Extended_InitPost_EventHandlers;
 		class EventHandlers: Extended_InitPost_EventHandlers
 		{
-			init="(_this select 0) execVM '\loadouts\loadouts_win.sqf'";
+			init="(_this select 0) execVM '\loadouts\init.sqf'";
 		};
 		class TransportItems
 		{
@@ -232,7 +233,7 @@ class CfgVehicles
 	};*/
 	/*class PW_Loadout_L_WIN: Land_Cargo10_grey_F
 	{
-		author="Mushtea";
+		author=", aarcticc";
 		scope=2;
 		scopeCurator=2;
 		displayName="Polarwölfe Loadouts [WIN/L]";
@@ -241,7 +242,7 @@ class CfgVehicles
 		class Extended_InitPost_EventHandlers;
 		class EventHandlers: Extended_InitPost_EventHandlers
 		{
-			init="(_this select 0) execVM '\loadouts\loadouts_win.sqf'";
+			init="(_this select 0) execVM '\loadouts\init.sqf'";
 		};
 		class TransportItems
 		{
@@ -255,7 +256,7 @@ class CfgVehicles
 	/*
 	class PW_Loadout_M_SPECIAL: CargoNet_01_box_F  
 	{
-		author="Mushtea";
+		author=", aarcticc";
 		scope=2;
 		scopeCurator=2;
 		displayName="Polarwölfe Loadouts [SPECIAL]";
@@ -264,7 +265,7 @@ class CfgVehicles
 		class Extended_InitPost_EventHandlers;
 		class EventHandlers: Extended_InitPost_EventHandlers
 		{
-			init="(_this select 0) execVM '\loadouts\loadouts_special.sqf'";
+			init="(_this select 0) execVM '\loadouts\init.sqf'";
 		};
 		class TransportItems
 		{

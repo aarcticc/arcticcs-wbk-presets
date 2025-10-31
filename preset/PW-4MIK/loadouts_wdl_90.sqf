@@ -130,7 +130,7 @@ sleep 0.2;
 	{
 		player setVariable ["ace_medical_medicclass",0,true];
 		player setVariable ["ace_isEngineer",0,true];
-		player setVariable ["ace_isEOD",0,true];
+		player setVariable ["ace_isEOD",1,true];
 	} 
 ] spawn Wbk_AddKit;
 sleep 0.2;
@@ -258,7 +258,6 @@ sleep 0.2;
 	} 
 ] spawn Wbk_AddKit;
 sleep 0.2;
-
 
 
 
@@ -576,8 +575,6 @@ sleep 0.2;
 	} 
 ] spawn Wbk_AddKit;
 sleep 0.2;
-
-
 
 
 
@@ -962,52 +959,7 @@ sleep 0.2;
 [ 
 	_this,
 	"GRD",
-	[
-		["sp_fwa_ar15_646_m16a3_m203","","","",["sp_fwa_30Rnd_556_Armalite_Tracer",30],["CUP_1Rnd_HEDP_M203",1],""],
-		[],
-		["tsp_meleeWeapon_m9","","","",[],[],""],
-		["U_Simc_bdu_laat",[
-			["ACE_fieldDressing",10],
-			["ACE_packingBandage",10],
-			["ACE_morphine",2],
-			["ACE_tourniquet",4],
-			["ACE_epinephrine",2],
-			["ACE_CableTie",5],
-			["ACE_EarPlugs",1],
-			["ACE_MapTools",2],
-			["ACE_Flashlight_MX991",1],
-			["kat_guedel",2],
-			["kat_chestSeal",1],
-			["kat_Painkiller",1,4]
-		]],
-		["V_Simc_vest_pasgt_nade_lc2",[
-			["CUP_NVG_PVS7",1],
-			["kat_gasmaskFilter",1],
-			["kat_mask_M04",1],
-			["ACE_EntrenchingTool",1],
-			["ACE_IR_Strobe_Item",1],
-			["G_SWDG",1],
-			["H_Simc_Hat_Patrol_m81",1],
-			["SmokeShell",2,1],
-			["HandGrenade",4,1],
-			["SmokeShellBlue",1,1],
-			["SmokeShellRed",1,1],
-			["ACE_Chemlight_HiRed",2,1],
-			["ACE_Chemlight_UltraHiOrange",2,1],
-			["acex_intelitems_notepad",1,1],
-			
-			["sp_fwa_30Rnd_556_Armalite_Tracer",3,30],
-			["sp_fwa_30Rnd_556_Armalite_Ball",3,30],
-			
-			["CUP_1Rnd_HEDP_M203",6,1],
-			["CUP_1Rnd_Smoke_M203",2,1]
-		]],
-		["B_simc_US_ALICE_asspack_sekop",[["CUP_1Rnd_Smoke_M203",4,1],["CUP_1Rnd_SmokeRed_M203",2,1],["CUP_1Rnd_StarCluster_White_M203",2,1],["1Rnd_SmokeBlue_Grenade_shell",2,1],["CUP_1Rnd_StarCluster_Red_M203",2,1],["CUP_1Rnd_StarFlare_White_M203",1,1]]],
-		"H_Simc_pasgt_m81",
-		"",
-		[],
-		["ItemMap","","","ItemCompass","ItemWatch",""]
-	],
+	[["sp_fwa_ar15_646_m16a3_m203","","","",["sp_fwa_30Rnd_556_Armalite_Tracer",30],["CUP_1Rnd_HEDP_M203",1],""],[],["tsp_meleeWeapon_m9","","","",[],[],""],["U_Simc_bdu_laat",[["ACE_fieldDressing",10],["ACE_packingBandage",10],["ACE_morphine",2],["ACE_tourniquet",4],["ACE_epinephrine",2],["ACE_CableTie",5],["ACE_EarPlugs",1],["ACE_MapTools",2],["ACE_Flashlight_MX991",1],["kat_guedel",2],["kat_chestSeal",1],["kat_Painkiller",1,4]]],["V_Simc_vest_pasgt_nade_lc2",[["CUP_NVG_PVS7",1],["kat_gasmaskFilter",1],["kat_mask_M04",1],["ACE_EntrenchingTool",1],["ACE_IR_Strobe_Item",1],["G_SWDG",1],["H_Simc_Hat_Patrol_m81",1],["SmokeShell",2,1],["HandGrenade",4,1],["SmokeShellBlue",1,1],["SmokeShellRed",1,1],["ACE_Chemlight_HiRed",2,1],["ACE_Chemlight_UltraHiOrange",2,1],["acex_intelitems_notepad",1,1],["sp_fwa_30Rnd_556_Armalite_Tracer",3,30],["sp_fwa_30Rnd_556_Armalite_Ball",3,30],["CUP_1Rnd_HEDP_M203",8,1]]],["B_simc_US_ALICE_asspack_sekop",[["CUP_1Rnd_SmokeRed_M203",2,1],["CUP_1Rnd_StarCluster_White_M203",2,1],["1Rnd_SmokeBlue_Grenade_shell",2,1],["CUP_1Rnd_StarCluster_Red_M203",2,1],["CUP_1Rnd_StarFlare_White_M203",1,1],["CUP_1Rnd_Smoke_M203",2,1],["CUP_1Rnd_HEDP_M203",2,1]]],"H_Simc_pasgt_m81","",[],["ItemMap","","ItemRadioAcreFlagged","ItemCompass","ItemWatch",""]],
 	[
 		"U_Simc_bdu_laat","U_Simc_bdu_laat_trop","U_Simc_bdu_laat_knee","U_Simc_bdu_laat_knee_trop","U_Simc_bdu_laat_gas_knee","U_Simc_bdu_laat_gas_knee_trop","U_Simc_bdu_laat_knee_nomex","U_Simc_bdu_laat_knee_nomex_trop","U_Simc_bdu_laat_gas_knee_nomex","U_Simc_bdu_laat_gas_knee_nomex_trop","U_Simc_bdu_laat_nomex","U_Simc_bdu_laat_gas_nomex","U_Simc_bdu_laat_gas","U_Simc_bdu_laat_gas_trop",
 		"H_Simc_pasgt_m81","H_Simc_pasgt_m81_b","H_Simc_pasgt_m81_b_SWDG","H_Simc_pasgt_m81_SWDG_low_b","H_Simc_pasgt_m81_scrim","H_Simc_pasgt_m81_scrim_panama","H_Simc_pasgt_m81_scrim_alt","H_Simc_pasgt_m81_scrim_SWDG","H_Simc_pasgt_m81_SWDG","H_Simc_pasgt_m81_SWDG_low",
@@ -1229,52 +1181,7 @@ sleep 0.2;
 [ 
 	_this,
 	"SAN",
-	[
-		["sp_fwa_ar15_646_a3","","","",["sp_fwa_30Rnd_556_Armalite_Tracer",30],[],""],
-		[],
-		["tsp_meleeWeapon_m9","","","",[],[],""],
-		["U_Simc_bdu_laat",[
-			["ACE_fieldDressing",10],
-			["ACE_packingBandage",10],
-			["ACE_morphine",2],
-			["ACE_tourniquet",4],
-			["ACE_epinephrine",2],
-			["ACE_CableTie",5],
-			["ACE_EarPlugs",1],
-			["ACE_MapTools",2],
-			["ACE_Flashlight_MX991",1],
-			["kat_guedel",2],
-			["kat_chestSeal",1],
-			["kat_Painkiller",1,4]
-		]],
-		["V_Simc_vest_pasgt_alice_mc_45",[
-			["CUP_NVG_PVS7",1],
-			["kat_gasmaskFilter",1],
-			["kat_mask_M04",1],
-			["ACE_EntrenchingTool",1],
-			["ACE_IR_Strobe_Item",1],
-			["G_SWDG",1],
-			["H_Simc_Hat_Patrol_m81",1],
-			["SmokeShell",2,1],
-			["HandGrenade",4,1],
-			["SmokeShellBlue",1,1],
-			["SmokeShellRed",1,1],
-			["ACE_Chemlight_HiRed",2,1],
-			["ACE_Chemlight_UltraHiOrange",2,1],
-			["acex_intelitems_notepad",1,1],
-			
-			["sp_fwa_30Rnd_556_Armalite_Tracer",3,30],
-			["sp_fwa_30Rnd_556_Armalite_Ball",3,30],
-			
-			["kat_crossPanel",1]
-		]],
-		["B_simc_pack_alice_flak_frame_1",[["ACE_fieldDressing",40],["ACE_elasticBandage",40],["ACE_packingBandage",40],["ACE_quikclot",40],["kat_IV_16",15],["kat_aatKit",1],["kat_atropine",10],["kat_IO_FAST",10],["ACE_salineIV",5],["ACE_salineIV_250",5],["kat_crossPanel",1],["kat_chestSeal",5],["kat_ketamine",5],["kat_pocketBVM",1],["ACE_salineIV_500",10],["kat_guedel",10],["ACE_splint",5],["kat_stethoscope",1],["kat_suction",1],["kat_basicDiagnostic",1],["kat_Carbonate",1,10],["kat_Penthrox",1,10]]],
-		"H_Simc_pasgt_m81",
-		"kat_Armband_Medic_Goggles",
-		[],
-		["ItemMap","","","ItemCompass","KAT_ChemicalDetector",""]
-	],
-	[
+	[["sp_fwa_ar15_646_a3","","","",["sp_fwa_30Rnd_556_Armalite_Tracer",30],[],""],[],["tsp_meleeWeapon_m9","","","",[],[],""],["U_Simc_bdu_laat",[["ACE_fieldDressing",10],["ACE_packingBandage",10],["ACE_morphine",2],["ACE_tourniquet",4],["ACE_epinephrine",2],["ACE_CableTie",5],["ACE_EarPlugs",1],["ACE_MapTools",2],["ACE_Flashlight_MX991",1],["kat_guedel",2],["kat_chestSeal",1],["kat_Painkiller",1,4]]],["V_Simc_vest_pasgt_alice_mc_45",[["CUP_NVG_PVS7",1],["kat_gasmaskFilter",1],["kat_mask_M04",1],["ACE_EntrenchingTool",1],["ACE_IR_Strobe_Item",1],["G_SWDG",1],["H_Simc_Hat_Patrol_m81",1],["kat_crossPanel",1],["kat_Armband_Medic_Goggles",1],["SmokeShell",4,1],["HandGrenade",1,1],["SmokeShellBlue",2,1],["SmokeShellRed",1,1],["ACE_Chemlight_HiRed",2,1],["ACE_Chemlight_UltraHiOrange",2,1],["acex_intelitems_notepad",1,1],["sp_fwa_30Rnd_556_Armalite_Tracer",3,30],["sp_fwa_30Rnd_556_Armalite_Ball",3,30],["SmokeShellPurple",2,1],["SmokeShellGreen",1,1]]],["B_simc_pack_frem_9",[["kat_chestSeal",10],["ACE_elasticBandage",30],["ACE_quikclot",30],["ACE_packingBandage",60],["kat_atropine",3],["kat_IV_16",15],["ACE_epinephrine",3],["kat_epinephrineIV",10],["kat_ketamine",5],["kat_suction",7],["ACE_morphine",3],["kat_naloxone",3],["kat_ncdKit",3],["kat_pocketBVM",1],["ACE_salineIV",5],["ACE_salineIV_500",10],["ACE_salineIV_250",6],["ACE_splint",4],["kat_stethoscope",1],["ACE_surgicalKit",1],["ACE_suture",100],["ACE_tourniquet",4],["kat_basicDiagnostic",1],["kat_fentanyl",5],["KAT_Empty_bloodIV_250",2],["kat_larynx",15],["kat_eyecovers",2],["kat_Carbonate",1,10],["kat_Caffeine",1,15],["kat_Painkiller",2,4],["kat_Penthrox",1,10],["KAT_Eyewasher",2,30]]],"H_Simc_pasgt_m81","",[],["ItemMap","","ItemRadioAcreFlagged","ItemCompass","KAT_ChemicalDetector",""]],	[
 		"U_Simc_bdu_laat","U_Simc_bdu_laat_trop","U_Simc_bdu_laat_knee","U_Simc_bdu_laat_knee_trop","U_Simc_bdu_laat_gas_knee","U_Simc_bdu_laat_gas_knee_trop","U_Simc_bdu_laat_knee_nomex","U_Simc_bdu_laat_knee_nomex_trop","U_Simc_bdu_laat_gas_knee_nomex","U_Simc_bdu_laat_gas_knee_nomex_trop","U_Simc_bdu_laat_nomex","U_Simc_bdu_laat_gas_nomex","U_Simc_bdu_laat_gas","U_Simc_bdu_laat_gas_trop",
 		"H_Simc_pasgt_m81","H_Simc_pasgt_m81_b","H_Simc_pasgt_m81_b_SWDG","H_Simc_pasgt_m81_SWDG_low_b","H_Simc_pasgt_m81_scrim","H_Simc_pasgt_m81_scrim_panama","H_Simc_pasgt_m81_scrim_alt","H_Simc_pasgt_m81_scrim_SWDG","H_Simc_pasgt_m81_SWDG","H_Simc_pasgt_m81_SWDG_low",
 		"sp_fwa_scope_ar_colt3x20","sp_fwa_scope_ar_colt4x20",
@@ -1294,100 +1201,7 @@ sleep 0.2;
 [ 
 	_this,
 	"FDO",
-	[
-		["sp_fwa_ar15_646_a3","","","",["sp_fwa_30Rnd_556_Armalite_Tracer",30],[],""],
-		[],
-		["tsp_meleeWeapon_m9","","","",[],[],""],
-		["U_Simc_bdu_laat",[
-			["ACE_fieldDressing",10],
-			["ACE_packingBandage",10],
-			["ACE_morphine",2],
-			["ACE_tourniquet",4],
-			["ACE_epinephrine",2],
-			["ACE_CableTie",5],
-			["ACE_EarPlugs",1],
-			["ACE_MapTools",2],
-			["ACE_Flashlight_MX991",1],
-			["kat_guedel",2],
-			["kat_chestSeal",1],
-			["kat_Painkiller",1,4]
-		]],
-		["V_Simc_vest_pasgt_alice_mc_45",[
-			["CUP_NVG_PVS7",1],
-			["kat_gasmaskFilter",1],
-			["kat_mask_M04",1],
-			["ACE_EntrenchingTool",1],
-			["ACE_IR_Strobe_Item",1],
-			["G_SWDG",1],
-			["H_Simc_Hat_Patrol_m81",1],
-			["SmokeShell",2,1],
-			["HandGrenade",4,1],
-			["SmokeShellBlue",1,1],
-			["SmokeShellRed",1,1],
-			["ACE_Chemlight_HiRed",2,1],
-			["ACE_Chemlight_UltraHiOrange",2,1],
-			["acex_intelitems_notepad",1,1],
-			
-			["sp_fwa_30Rnd_556_Armalite_Tracer",3,30],
-			["sp_fwa_30Rnd_556_Armalite_Ball",3,30],
-			
-			["kat_crossPanel",1],
-			["ACRE_SEM52SL",1]
-			
-		]],
-		["B_simc_pack_frem_9",[
-			["kat_IV_16",15], 
-			["kat_aatKit",3], 
-			["kat_accuvac",1], 
-			["kat_X_AED",1], 
-			["kat_atropine",7], 
-			["ACE_elasticBandage",20], 
-			["ACE_packingBandage",20], 
-			["ACE_quikclot",20], 
-			["kat_BVM",1], 
-			["kat_chestSeal",5], 
-			["kat_IO_FAST",10], 
-			["kat_ketamine",5], 
-			["ACE_salineIV",2], 
-			["ACE_salineIV_250",6], 
-			["ACE_salineIV_500",4], 
-			["kat_larynx",10], 
-			["kat_lidocaine",5], 
-			["ACE_morphine",5], 
-			["kat_naloxone",3], 
-			["kat_ncdKit",5], 
-			["kat_nitroglycerin",5], 
-			["ACE_splint",2], 
-			["kat_stethoscope",1], 
-			["ACE_tourniquet",6], 
-			["kat_TXA",15], 
-			["kat_amiodarone",15], 
-			["kat_EACA",15], 
-			["kat_epinephrineIV",20], 
-			["kat_Pulseoximeter",1], 
-			["kat_retractor",1], 
-			["kat_scalpel",5], 
-			["kat_clamp",5], 
-			["kat_plate",5], 
-			["kat_flumazenil",5], 
-			["kat_lorazepam",5], 
-			["kat_phenylephrine",3], 
-			["kat_etomidate",12], 
-			["kat_fentanyl",5], 
-			["kat_Penthrox",1,10], 
-			["kat_norepinephrine",7], 
-			["kat_reboa",2],
-			["ACE_surgicalKit",1], 
-			["ACE_suture",35], 
-			["kat_Carbonate",1,10], 
-			["kat_oxygenTank_150",1,100] 
-		]
-		],
-		"H_Simc_pasgt_m81",
-		"kat_Armband_Doctor_Goggles",
-		[],
-		["ItemMap","","","ItemCompass","KAT_ChemicalDetector",""]
-	],
+	[["sp_fwa_ar15_646_a3","","","",["sp_fwa_30Rnd_556_Armalite_Tracer",30],[],""],[],["tsp_meleeWeapon_m9","","","",[],[],""],["U_Simc_bdu_laat",[["ACE_fieldDressing",10],["ACE_packingBandage",10],["ACE_morphine",2],["ACE_tourniquet",4],["ACE_epinephrine",2],["ACE_CableTie",5],["ACE_EarPlugs",1],["ACE_MapTools",2],["ACE_Flashlight_MX991",1],["kat_guedel",2],["kat_chestSeal",1],["kat_Painkiller",1,4]]],["V_Simc_vest_pasgt_alice_mc_45",[["CUP_NVG_PVS7",1],["kat_gasmaskFilter",1],["kat_mask_M04",1],["ACE_EntrenchingTool",1],["ACE_IR_Strobe_Item",1],["G_SWDG",1],["H_Simc_Hat_Patrol_m81",1],["kat_crossPanel",1],["ACRE_SEM52SL_ID_2",1],["kat_Armband_Doctor_Goggles",1],["SmokeShell",2,1],["HandGrenade",4,1],["SmokeShellBlue",1,1],["SmokeShellRed",1,1],["ACE_Chemlight_HiRed",2,1],["ACE_Chemlight_UltraHiOrange",2,1],["acex_intelitems_notepad",1,1],["sp_fwa_30Rnd_556_Armalite_Tracer",3,30],["sp_fwa_30Rnd_556_Armalite_Ball",3,30]]],["B_simc_pack_frem_9",[["kat_IV_16",15],["kat_aatKit",3],["kat_accuvac",1],["kat_X_AED",1],["kat_atropine",7],["ACE_elasticBandage",20],["ACE_packingBandage",20],["ACE_quikclot",20],["kat_BVM",1],["kat_chestSeal",5],["kat_IO_FAST",10],["kat_ketamine",5],["ACE_salineIV",2],["ACE_salineIV_250",6],["ACE_salineIV_500",4],["kat_larynx",10],["kat_lidocaine",5],["ACE_morphine",5],["kat_naloxone",3],["kat_ncdKit",5],["kat_nitroglycerin",5],["ACE_splint",2],["kat_stethoscope",1],["ACE_tourniquet",6],["kat_TXA",15],["kat_amiodarone",15],["kat_EACA",15],["kat_epinephrineIV",20],["kat_Pulseoximeter",1],["kat_retractor",1],["kat_scalpel",5],["kat_clamp",5],["kat_plate",5],["kat_flumazenil",5],["kat_lorazepam",5],["kat_phenylephrine",3],["kat_etomidate",12],["kat_fentanyl",5],["kat_norepinephrine",7],["kat_reboa",2],["ACE_surgicalKit",1],["ACE_suture",35],["kat_Penthrox",1,10],["kat_Carbonate",1,10],["kat_oxygenTank_150",1,100]]],"H_Simc_pasgt_m81","",[],["ItemMap","","ItemRadioAcreFlagged","ItemCompass","KAT_ChemicalDetector",""]],
 	[
 		"U_Simc_bdu_laat","U_Simc_bdu_laat_trop","U_Simc_bdu_laat_knee","U_Simc_bdu_laat_knee_trop","U_Simc_bdu_laat_gas_knee","U_Simc_bdu_laat_gas_knee_trop","U_Simc_bdu_laat_knee_nomex","U_Simc_bdu_laat_knee_nomex_trop","U_Simc_bdu_laat_gas_knee_nomex","U_Simc_bdu_laat_gas_knee_nomex_trop","U_Simc_bdu_laat_nomex","U_Simc_bdu_laat_gas_nomex","U_Simc_bdu_laat_gas","U_Simc_bdu_laat_gas_trop",
 		"H_Simc_pasgt_m81","H_Simc_pasgt_m81_b","H_Simc_pasgt_m81_b_SWDG","H_Simc_pasgt_m81_SWDG_low_b","H_Simc_pasgt_m81_scrim","H_Simc_pasgt_m81_scrim_panama","H_Simc_pasgt_m81_scrim_alt","H_Simc_pasgt_m81_scrim_SWDG","H_Simc_pasgt_m81_SWDG","H_Simc_pasgt_m81_SWDG_low",
@@ -1396,7 +1210,7 @@ sleep 0.2;
 	],
 	"true", 
 	{
-		player setVariable ["ace_medical_medicclass",1,true];
+		player setVariable ["ace_medical_medicclass",2,true];
 		player setVariable ["ace_isEngineer",0,true];
 		player setVariable ["ace_isEOD",0,true];
 	} 
