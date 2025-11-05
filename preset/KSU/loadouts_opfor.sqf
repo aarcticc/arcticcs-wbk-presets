@@ -1,5 +1,3 @@
-// A-SPEX
-
 [ 
 	_this,
 	"A-SPEX Schütze",
