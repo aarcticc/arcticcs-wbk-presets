@@ -114,4 +114,4 @@ class CfgVehicles
 		};
 	};
 }
-/* End Of config.cpp */
+/*---EOF-config.cpp---*/

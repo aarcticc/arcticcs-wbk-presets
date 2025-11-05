@@ -1,2 +1,0 @@
-// placeholder 
-/* EOF temp.sqf */

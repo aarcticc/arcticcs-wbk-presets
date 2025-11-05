@@ -1,5 +1,6 @@
 class BIS_AddonInfo
 {
-	author=", aarcticc";
+	author="aarcticc";
 	timepacked="-------";
 };
+/*---EOF-BIS_AddonInfo.hpp---*/

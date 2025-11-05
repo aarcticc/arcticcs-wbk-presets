@@ -27,7 +27,7 @@ class CfgPatches
 		};
 		version="1.0";
 		name="MIK Loadout";
-		author=", aarcticc";
+		author="Mushtea, aarcticc";
 		authorUrl="";
 	};
 };
@@ -55,7 +55,7 @@ class CfgVehicles
 
 	class PW_Loadout_S_WDL: C_T_supplyCrate_F	
 	{
-		author=", aarcticc";
+		author="Mushtea, aarcticc";
 		scope=2;
 		scopeCurator=2;
 		displayName="Polarwölfe Loadouts [WDL/S]";
@@ -77,7 +77,7 @@ class CfgVehicles
 	};
 	class PW_Loadout_M_WDL: CargoNet_01_box_F  
 	{
-		author=", aarcticc";
+		author="Mushtea, aarcticc";
 		scope=2;
 		scopeCurator=2;
 		displayName="Polarwölfe Loadouts [WDL/M]";
@@ -99,7 +99,7 @@ class CfgVehicles
 	};
 	class PW_Loadout_L_WDL: Land_Cargo10_grey_F
 	{
-		author=", aarcticc";
+		author="Mushtea, aarcticc";
 		scope=2;
 		scopeCurator=2;
 		displayName="Polarwölfe Loadouts [WDL/L]";
@@ -122,7 +122,7 @@ class CfgVehicles
 	
 	class PW_Loadout_S_DES: C_T_supplyCrate_F	
 	{
-		author=", aarcticc";
+		author="Mushtea, aarcticc";
 		scope=2;
 		scopeCurator=2;
 		displayName="Polarwölfe Loadouts [DES/S]";
@@ -144,7 +144,7 @@ class CfgVehicles
 	};
 	class PW_Loadout_M_DES: CargoNet_01_box_F  
 	{
-		author=", aarcticc";
+		author="Mushtea, aarcticc";
 		scope=2;
 		scopeCurator=2;
 		displayName="Polarwölfe Loadouts [DES/M]";
@@ -166,7 +166,7 @@ class CfgVehicles
 	};
 	class PW_Loadout_L_DES: Land_Cargo10_grey_F
 	{
-		author=", aarcticc";
+		author="Mushtea, aarcticc";
 		scope=2;
 		scopeCurator=2;
 		displayName="Polarwölfe Loadouts [DES/L]";
@@ -189,7 +189,7 @@ class CfgVehicles
 	
 	/*class PW_Loadout_S_WIN: C_T_supplyCrate_F	
 	{
-		author=", aarcticc";
+		author="Mushtea, aarcticc";
 		scope=2;
 		scopeCurator=2;
 		displayName="Polarwölfe Loadouts [WIN/S]";
@@ -211,7 +211,7 @@ class CfgVehicles
 	};*/
 	/*class PW_Loadout_M_WIN: CargoNet_01_box_F  
 	{
-		author=", aarcticc";
+		author="Mushtea, aarcticc";
 		scope=2;
 		scopeCurator=2;
 		displayName="Polarwölfe Loadouts [WIN]";
@@ -233,7 +233,7 @@ class CfgVehicles
 	};*/
 	/*class PW_Loadout_L_WIN: Land_Cargo10_grey_F
 	{
-		author=", aarcticc";
+		author="Mushtea, aarcticc";
 		scope=2;
 		scopeCurator=2;
 		displayName="Polarwölfe Loadouts [WIN/L]";
@@ -256,7 +256,7 @@ class CfgVehicles
 	/*
 	class PW_Loadout_M_SPECIAL: CargoNet_01_box_F  
 	{
-		author=", aarcticc";
+		author="Mushtea, aarcticc";
 		scope=2;
 		scopeCurator=2;
 		displayName="Polarwölfe Loadouts [SPECIAL]";
@@ -278,3 +278,4 @@ class CfgVehicles
 	};*/
 	
 };
+/*---EOF-config.cpp---*/
