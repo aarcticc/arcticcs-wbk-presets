@@ -68,8 +68,8 @@
 	"true", 
 	{
 		player setVariable ["ace_medical_medicclass",0,true];
-		player setVariable ["ace_isEngineer",0,true];
-		player setVariable ["ace_isEOD",0,true];
+		player setVariable ["ace_isEngineer",2,true];
+		player setVariable ["ace_isEOD",1,true];
 	} 
 ] spawn Wbk_AddKit;
 
@@ -82,7 +82,7 @@
 	],
 	"true", 
 	{
-		player setVariable ["ace_medical_medicclass",0,true];
+		player setVariable ["ace_medical_medicclass",2,true];
 		player setVariable ["ace_isEngineer",0,true];
 		player setVariable ["ace_isEOD",0,true];
 	} 

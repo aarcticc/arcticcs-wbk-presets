@@ -101,7 +101,7 @@ sleep 0.2;
 	{
 		player setVariable ["ace_medical_medicclass",0,true];
 		player setVariable ["ace_isEngineer",2,true];
-		player setVariable ["ace_isEOD",0,true];
+		player setVariable ["ace_isEOD",1,true];
 	} 
 ] spawn Wbk_AddKit;
 sleep 0.2;
