@@ -54,7 +54,7 @@ sleep 0.2;
 
 [ 
 	_this,
-	"A-SPEX MG Schütze",
+	"A-SPEX Maschienengewehrschütze",
 	[
 		["LMG_03_F","","JCA_acc_flashlight_tactical_black","",["200Rnd_556x45_Box_Tracer_Red_F",200],[],""],[],["JCA_hgun_M9A1_black_F","","JCA_acc_LightMount_Pistol_black","",["JCA_15Rnd_9x21_M9A1_Mag",15],[],""],["U_I_G_Story_Protagonist_F",[["ACE_CableTie",2],["ACE_EHP",1],["ACE_EarPlugs",1],["ACE_quikclot",10],["ACE_epinephrine",2],["ACE_morphine",2],["ACE_tourniquet",4],["ACE_splint",2],["ACE_salineIV_250",1],["ACE_adenosine",1],["ACE_painkillers",1,10]]],["JCA_V_CarrierRigKBT_01_tactical_black_F",[["ACE_MapTools",1],["ACRE_PRC152",1],["acex_intelitems_notepad",1,1],["JCA_HandFlare_Red",4,1],["MiniGrenade",2,1],["SmokeShell",2,1],["200Rnd_556x45_Box_Tracer_Red_F",1,200],["JCA_15Rnd_9x21_M9A1_Mag",3,15]]],["USP_REEBOW_3DAP_ACC1_MCB",[["200Rnd_556x45_Box_Tracer_Red_F",2,200]]],"opscore_highcut_cover_blk","JCA_G_balaclava_01_black_F",["Binocular","","","",[],[],""],["ItemMap","ItemGPS","","ItemCompass","ItemWatch","USP_GPNVG18_WP_TAR_BLK2"]
 	],
@@ -108,7 +108,7 @@ sleep 0.2;
 
 [ 
 	_this,
-	"A-SPEX Sanitäter",
+	"A-SPEX Sanitätsschütze",
 	[
 		["JCA_arifle_HK433_black_F","","JCA_acc_flashlight_tactical_black","JCA_optic_CRO_black",["JCA_30Rnd_556x45_PMAG",30],[],""],[],["JCA_hgun_M9A1_black_F","","JCA_acc_LightMount_Pistol_black","",["JCA_15Rnd_9x21_M9A1_Mag",15],[],""],["U_I_G_Story_Protagonist_F",[["ACE_CableTie",2],["ACE_EHP",1],["ACE_EarPlugs",1],["ACE_quikclot",10],["ACE_epinephrine",2],["ACE_morphine",2],["ACE_tourniquet",4],["ACE_splint",2],["ACE_salineIV_250",1],["ACE_adenosine",1],["ACE_painkillers",1,10]]],["JCA_V_CarrierRigKBT_01_tactical_black_F",[["ACE_MapTools",1],["ACRE_PRC152",1],["acex_intelitems_notepad",1,1],["JCA_HandFlare_Red",4,1],["MiniGrenade",2,1],["SmokeShell",2,1],["JCA_30Rnd_556x45_PMAG",3,30],["JCA_15Rnd_9x21_M9A1_Mag",3,15]]],["USP_45L_RUCKSACK",[["ACE_adenosine",10],["ACE_fieldDressing",50],["ACE_quikclot",20],["ACE_salineIV",3],["ACE_salineIV_250",9],["ACE_salineIV_500",6],["ACE_morphine",20],["ACE_splint",8],["ACE_tourniquet",4],["ACE_painkillers",4,10],["JCA_30Rnd_556x45_PMAG",10,30]]],"opscore_highcut_cover_rgr","JCA_G_balaclava_01_glasses_black_F",["Binocular","","","",[],[],""],["ItemMap","ItemGPS","","ItemCompass","ItemWatch","USP_GPNVG18_WP_TAR_BLK2"]
 	],
@@ -126,7 +126,7 @@ sleep 0.2;
 
 [ 
 	_this,
-	"A-SPEX Teamführer",
+	"A-SPEX Truppführer",
 	[
 		["JCA_arifle_M4A1_GL_black_F","","JCA_acc_flashlight_tactical_black","JCA_optic_ICO_black",["JCA_30Rnd_556x45_PMAG",30],[],""],[],["JCA_hgun_P320_black_F","","JCA_acc_LightMount_Pistol_black","",["JCA_17Rnd_9x21_P320_Green_Mag",17],[],""],["U_I_G_Story_Protagonist_F",[["ACE_CableTie",2],["ACE_EHP",1],["ACE_EarPlugs",1],["ACE_quikclot",10],["ACE_epinephrine",2],["ACE_morphine",2],["ACE_tourniquet",4],["ACE_splint",2],["ACE_salineIV_250",1],["ACE_adenosine",1],["ACE_painkillers",1,10]]],["JCA_V_CarrierRigKBT_01_light_black_F",[["ACE_MapTools",1],["ACRE_PRC152",2],["acex_intelitems_notepad",1,1],["JCA_17Rnd_9x21_P320_Green_Mag",3,17],["JCA_HandFlare_Red",4,1],["SmokeShell",2,1],["JCA_30Rnd_556x45_PMAG",3,30]]],["USP_DELTA_BAG_BLK",[["JCA_30Rnd_556x45_PMAG",10,30],["UGL_FlareRed_Illumination_F",10,1]]],"opscore_highcut_cover_blk","JCA_G_balaclava_01_glasses_black_F",["Binocular","","","",[],[],""],["ItemMap","ItemGPS","","ItemCompass","ItemWatch","USP_GPNVG18_WP_TAR_BLK2"]
 	],
